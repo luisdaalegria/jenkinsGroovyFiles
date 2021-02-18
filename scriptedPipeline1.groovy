@@ -1,7 +1,7 @@
 node {
      properties([
         parameters([
-            string(name: 'STRING_TO_PRINT_ONE', defaultValue: 'TESTING' )
+            string(name: 'STRING_TO_PRINT_ONE', defaultValue: 'TESTING' ),
             string(name: 'STRING_TO_PRINT_TWO', defaultValue: 'TESTING' )
         ])
     ])    
