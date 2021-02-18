@@ -44,4 +44,10 @@ pipeline {
             }
         }
     }
+
+    post {
+    success {
+      println "The pipeline was successfully executed :)"
+    }
+  }
 }
