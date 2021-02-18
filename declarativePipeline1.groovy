@@ -2,10 +2,10 @@
 
 pipeline {
     agent any
-    parameters([
-        string(name: 'STRING_TO_PRINT_ONE', defaultValue: 'TESTING' ),
+    parameters {
+        string(name: 'STRING_TO_PRINT_ONE', defaultValue: 'TESTING' )
         string(name: 'STRING_TO_PRINT_TWO', defaultValue: 'TESTING' )
-    ])
+    }
 
     stages {
         stage('Clone repo') {
