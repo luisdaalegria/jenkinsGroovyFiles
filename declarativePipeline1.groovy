@@ -30,7 +30,7 @@ pipeline {
             steps {
                 dir('repo1') 
                 {
-                    println "String to print 1 is: $STRING_TO_PRINT"
+                    println "String to print 1 is: $STRING_TO_PRINT_ONE"
                 }
             }
         }
@@ -39,7 +39,7 @@ pipeline {
             steps {
                 dir('repo1') 
                 {
-                    println "String to print 2 is: $STRING_TO_PRINT"
+                    println "String to print 2 is: $STRING_TO_PRINT_TWO"
                 }
             }
         }
